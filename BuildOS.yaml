@@ -8,14 +8,14 @@ spec:
   output:
     to:
       kind: ImageStreamTag
-      name: 'app-stack:latest'
+      name: 'alozbon-app:latest'
   postCommit: {}
   resources: {}
   runPolicy: Serial
   source:
     git:
       ref: master
-      uri: 'https://github.com/cowbotic/app-stack.git'
+      uri: 'https://github.com/alozbon/app-stack.git'
     type: Git
   strategy:
     dockerStrategy: {}
