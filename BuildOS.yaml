@@ -1,5 +1,5 @@
 kind: BuildConfig
-apiVersion: v1
+apiVersion: v2
 metadata:
   name: buildito
 spec:
